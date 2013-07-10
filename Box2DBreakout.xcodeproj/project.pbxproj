@@ -181,6 +181,16 @@
 		EF7C07CB1721141000EFC5E1 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7C07CA1721141000EFC5E1 /* GLES-Render.mm */; };
 		EF7C07CE1721141000EFC5E1 /* PhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7C07CD1721141000EFC5E1 /* PhysicsSprite.mm */; };
 		EF7C07D01721141000EFC5E1 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07CF1721141000EFC5E1 /* blocks.png */; };
+		EF7C07D81721E3B600EFC5E1 /* ball-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07D61721E3B600EFC5E1 /* ball-hd.png */; };
+		EF7C07D91721E3B600EFC5E1 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07D71721E3B600EFC5E1 /* ball.png */; };
+		EF7C07DC1721EAE700EFC5E1 /* paddle-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07DA1721EAE700EFC5E1 /* paddle-hd.png */; };
+		EF7C07DD1721EAE700EFC5E1 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07DB1721EAE700EFC5E1 /* paddle.png */; };
+		EF7C07E01721FFF400EFC5E1 /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7C07DF1721FFF400EFC5E1 /* MyContactListener.mm */; };
+		EF7C07E51722089600EFC5E1 /* block-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07E31722089600EFC5E1 /* block-hd.png */; };
+		EF7C07E61722089600EFC5E1 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07E41722089600EFC5E1 /* block.png */; };
+		EF7C07E817220BC200EFC5E1 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7C07E2172207D200EFC5E1 /* GameOverLayer.mm */; };
+		EF7C07EB172210C000EFC5E1 /* blip.caf in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07EA1722109B00EFC5E1 /* blip.caf */; };
+		EF7C07EC172210C300EFC5E1 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = EF7C07E91722109B00EFC5E1 /* background-music-aac.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -545,6 +555,18 @@
 		EF7C07CC1721141000EFC5E1 /* PhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsSprite.h; sourceTree = "<group>"; };
 		EF7C07CD1721141000EFC5E1 /* PhysicsSprite.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysicsSprite.mm; sourceTree = "<group>"; };
 		EF7C07CF1721141000EFC5E1 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		EF7C07D61721E3B600EFC5E1 /* ball-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-hd.png"; sourceTree = "<group>"; };
+		EF7C07D71721E3B600EFC5E1 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		EF7C07DA1721EAE700EFC5E1 /* paddle-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paddle-hd.png"; sourceTree = "<group>"; };
+		EF7C07DB1721EAE700EFC5E1 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		EF7C07DE1721FFF400EFC5E1 /* MyContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactListener.h; sourceTree = "<group>"; };
+		EF7C07DF1721FFF400EFC5E1 /* MyContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyContactListener.mm; sourceTree = "<group>"; };
+		EF7C07E1172207D200EFC5E1 /* GameOverLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		EF7C07E2172207D200EFC5E1 /* GameOverLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameOverLayer.mm; sourceTree = "<group>"; };
+		EF7C07E31722089600EFC5E1 /* block-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-hd.png"; sourceTree = "<group>"; };
+		EF7C07E41722089600EFC5E1 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		EF7C07E91722109B00EFC5E1 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		EF7C07EA1722109B00EFC5E1 /* blip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blip.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -603,10 +625,14 @@
 		EF7C05B51721140C00EFC5E1 /* Box2DBreakout */ = {
 			isa = PBXGroup;
 			children = (
+				EF7C07E1172207D200EFC5E1 /* GameOverLayer.h */,
+				EF7C07E2172207D200EFC5E1 /* GameOverLayer.mm */,
 				EF7C07C01721141000EFC5E1 /* AppDelegate.h */,
 				EF7C07C11721141000EFC5E1 /* AppDelegate.mm */,
 				EF7C07C31721141000EFC5E1 /* HelloWorldLayer.h */,
 				EF7C07C41721141000EFC5E1 /* HelloWorldLayer.mm */,
+				EF7C07DE1721FFF400EFC5E1 /* MyContactListener.h */,
+				EF7C07DF1721FFF400EFC5E1 /* MyContactListener.mm */,
 				EF7C07C61721141000EFC5E1 /* IntroLayer.h */,
 				EF7C07C71721141000EFC5E1 /* IntroLayer.mm */,
 				EF7C07C91721141000EFC5E1 /* GLES-Render.h */,
@@ -623,6 +649,14 @@
 		EF7C05B61721140C00EFC5E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF7C07E91722109B00EFC5E1 /* background-music-aac.caf */,
+				EF7C07EA1722109B00EFC5E1 /* blip.caf */,
+				EF7C07E31722089600EFC5E1 /* block-hd.png */,
+				EF7C07E41722089600EFC5E1 /* block.png */,
+				EF7C07DA1721EAE700EFC5E1 /* paddle-hd.png */,
+				EF7C07DB1721EAE700EFC5E1 /* paddle.png */,
+				EF7C07D61721E3B600EFC5E1 /* ball-hd.png */,
+				EF7C07D71721E3B600EFC5E1 /* ball.png */,
 				EF7C05B71721140C00EFC5E1 /* Default.png */,
 				EF7C05B91721140C00EFC5E1 /* Default-Landscape~ipad.png */,
 				EF7C05BB1721140C00EFC5E1 /* fps_images.png */,
@@ -1206,6 +1240,14 @@
 				EF7C05CF1721140D00EFC5E1 /* iTunesArtwork in Resources */,
 				EF7C070D1721140F00EFC5E1 /* ChangeLog in Resources */,
 				EF7C07D01721141000EFC5E1 /* blocks.png in Resources */,
+				EF7C07D81721E3B600EFC5E1 /* ball-hd.png in Resources */,
+				EF7C07D91721E3B600EFC5E1 /* ball.png in Resources */,
+				EF7C07DC1721EAE700EFC5E1 /* paddle-hd.png in Resources */,
+				EF7C07DD1721EAE700EFC5E1 /* paddle.png in Resources */,
+				EF7C07E51722089600EFC5E1 /* block-hd.png in Resources */,
+				EF7C07E61722089600EFC5E1 /* block.png in Resources */,
+				EF7C07EB172210C000EFC5E1 /* blip.caf in Resources */,
+				EF7C07EC172210C300EFC5E1 /* background-music-aac.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1367,6 +1409,8 @@
 				EF7C07C81721141000EFC5E1 /* IntroLayer.mm in Sources */,
 				EF7C07CB1721141000EFC5E1 /* GLES-Render.mm in Sources */,
 				EF7C07CE1721141000EFC5E1 /* PhysicsSprite.mm in Sources */,
+				EF7C07E01721FFF400EFC5E1 /* MyContactListener.mm in Sources */,
+				EF7C07E817220BC200EFC5E1 /* GameOverLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
